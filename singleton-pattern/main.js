@@ -22,4 +22,5 @@ class Logger {
 (function main() {
     const l = new Logger();
     l.log('hello world');
+    l.printLogCount();
 })()
